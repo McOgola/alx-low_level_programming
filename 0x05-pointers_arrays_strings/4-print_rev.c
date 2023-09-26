@@ -18,8 +18,8 @@ void print_rev(char *s)
 	s--;
 	for (0 = longi; o > 0; o--)
 	{
-		_putchar(*s);
+		putchar(*s);
 		s--;
 	}
-	_putchar('\n');
+	putchar('\n');
 }
