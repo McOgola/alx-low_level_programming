@@ -2,15 +2,15 @@
 #include <stdio.h>
 
 /**
- * rot13 - encodes a string using rot13
+ * *rot13 - encodes a string using rot13
  * @s: pointer to string params
  * Return: *s
  */
-char *rot13(char *s)
+char *rot13(char *)
 {
 	int i;
 	int j;
-	char data[] =
+	char data1[] =
 		"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char datarot[] =
 		"NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
